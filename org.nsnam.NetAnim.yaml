@@ -1,6 +1,6 @@
 app-id: org.nsnam.NetAnim
 runtime: org.kde.Platform
-runtime-version: '5.15-23.08'
+runtime-version: 5.15-23.08
 sdk: org.kde.Sdk
 command: netanim
 finish-args:
@@ -23,6 +23,7 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^netanim-([\d.]+)$
+        commit: 2b83f22828bebe1334af4d7a07fe0857d6c74ef8
       - type: file
         path: org.nsnam.NetAnim.desktop
       - type: file
