@@ -19,11 +19,11 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/nsnam/netanim
-        tag: netanim-3.109
+        tag: netanim-3.110
         x-checker-data:
           type: git
           tag-pattern: ^netanim-([\d.]+)$
-        commit: 2b83f22828bebe1334af4d7a07fe0857d6c74ef8
+        commit: c101aaf1c0316e5bda486c184abe15a92721faf4
       - type: file
         path: org.nsnam.NetAnim.desktop
       - type: file
